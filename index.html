@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <form onsubmit="submitHandler(event)">
+            <span class="input-wrapper"> 
+                <label class="form-label" for="sayi1">Sayı 1:</label>
+                <input required class="form-input" type="text" id="sayi1">
+            </span>
+            <span class="input-wrapper">
+                <label class="form-label" for="sayi2">Sayı 2:</label>
+                <input required class="form-input" type="text" id="sayi2">
+            </span>
+            <span class="input-wrapper">
+                <label class="form-label" for="sayi3">Sayı 3:</label>
+                <input required class="form-input" type="text" id="sayi3">
+            </span>
+            <span class="input-wrapper">
+                <label class="form-label" for="sayi4">Sayı 4:</label>
+                <input required class="form-input" type="text" id="sayi4">
+            </span>
+            <span class="input-wrapper">
+                <label class="form-label" for="sayi5">Sayı 5:</label>
+                <input required class="form-input" type="text" id="sayi5">
+            </span>
+
+            <input id="submitButton" class="form-submit" type="submit" value="Tamamla">
+
+        </form>
+
+        <span class="info-wrapper">
+            <label class="info-label" for="girdi">Kullanıcı Girdisi :</label>
+            <p class="info" id="girdi"></p>
+        </span>
+
+        <span class="info-wrapper">
+            <label class="info-label" for="hint">Hint :</label>
+            <p class="info" id="hint"></p>
+        </span>
+
+
+        <span class="how-to-play-wrapper"><p class="how-to-play-header">How to play ?</p><p class="how-to-play-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec consectetur libero. Fusce commodo elit porttitor sapien rutrum vehicula.</p></span>
+
+    </div>
+
+</body>
+
+</html>
