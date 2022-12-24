@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+* {
+    font-family: 'Open Sans', serif;
+    font-weight: 100;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    width: 350px;
+    border-radius: 15px;
+    background-color: #5254e3;
+    margin-top: 30px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-wrapper {
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.form-label {
+    margin-right: 10px;
+    color: #fff;
+}
+
+.form-input {
+    border: 1px solid;
+    border-radius: 15px;
+    padding-left: 5px;
+}
+
+.form-submit {
+    border: 0.5px solid black;
+    border-radius: 15px;
+    background-color: #fff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.how-to-play-wrapper {
+    display: flex;
+    background-color: #5254e3;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.how-to-play-header {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.how-to-play-text {
+    color: #fff;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
+
+.how-to-play-header {
+    color: #fff;
+}
+
+.info-wrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.info {
+    margin: 0;
+    padding: 0;
+}
